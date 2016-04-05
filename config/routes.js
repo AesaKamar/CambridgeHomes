@@ -45,6 +45,7 @@ module.exports.routes = {
   * for configuration options and examples.                                  *
   *                                                                          *
   ***************************************************************************/
-  'GET /home': {view: 'home/home'}
+  'GET /home': {view: 'home/home'},
+  'post /User': 'UserController.create'
 
 };
