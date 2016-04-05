@@ -1,3 +1,6 @@
 # CambridgeHomes
 
-a [Sails](http://sailsjs.org) application
+Made with:
+Sails, a Node/Express based mvc framework
+AngularJS
+PolymerJS
