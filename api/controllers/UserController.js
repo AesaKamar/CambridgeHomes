@@ -8,12 +8,11 @@
 module.exports = {
   create: function(req, res) {
     var params = req.params.all();
-
     User.create({
-      name: params.name
+      email: params.email
     }).exec(function createCB(err, created) {
       return res.json({
-        notice: 'Created user with name ' + created.name
+        notice: created || err
       });
     });
   }
